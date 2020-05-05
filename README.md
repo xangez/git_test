@@ -1,2 +1,2 @@
-# git_test
+# recreating the google homepage
 # By xangez 
