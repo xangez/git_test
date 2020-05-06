@@ -24,15 +24,13 @@ html {
 }
 
 .nav-right a{
-    padding-left:10px
-
+    padding-left:10px;
+    padding-right:5px;
 }
 
 .nav-items {
     padding-top: 8px;
 }
-
-
 
 a:link {
     text-decoration: none;
