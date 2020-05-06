@@ -2,37 +2,38 @@ html {
     box-sizing: border-box;
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
+    color: rgb(95, 99, 104);
 }
 
 .navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     line-height: 2em;
-    margin-top: 2em;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .nav-left a{
-    padding-right: 1em;
+    padding-right: 10px;
 }
 
 .nav-right a{
     padding-right: 1em;
 }
 
-a:link {
-    text-decoration: none;
-    color: black;
+.nav-items{
+    width:16px;
+    margin-top: 15px;
 }
 
-a:visited {
-    color: black;
+a:link {
+    text-decoration: none;
+    color:rgb(95, 99, 104);}
 
+a:visited {
+    color: rgb(95, 99, 104);
 }
 
 a:hover {
@@ -57,7 +58,7 @@ a:hover {
 
 .search-box{
     width: 400px;
-    height: 40px;
+    height: 34px;
     border-radius: 25px;
     border: 1px solid #dfe1e5;
     margin-top: 25px;
@@ -75,7 +76,8 @@ a:hover {
 
 input{
     border-style: none;
-    margin-top: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-size: 16px;
     width:100%;
 }
@@ -93,11 +95,64 @@ input:focus{
 
 .submit-subsection {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 
 .submit-subsection input{
-    width: 90px;
-    font-size: 12px;
+    font-size: 11px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+}
+
+.submit-subsection input:hover{
+    border: 1px solid rgb(212, 212, 212);
+}
+
+[value="Google Search"] {
+    margin: 11px 4px;
+    width: 100px;
+    height: 30px;
+}
+
+[value="I'm feeling lucky"] {
+    margin:11px 4px;
+    width: 110px;
+    height: 30px;
+}
+
+footer {
+    position: fixed;
+    background-color: rgb(236, 236, 236);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-top {
+    line-height: 30px;
+    padding-left: 20px;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-left{
+    width:220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
 }
