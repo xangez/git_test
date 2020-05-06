@@ -9,24 +9,22 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    line-height: 2em;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .nav-left a{
     padding-right: 10px;
 }
 
-.nav-right a{
-    padding-right: 1em;
+.nav-right{
+    padding-right: 10px;
+    width:150px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.nav-items{
-    width:16px;
-    margin-top: 15px;
-}
 
 a:link {
     text-decoration: none;
@@ -52,6 +50,7 @@ a:hover {
     justify-content: center;
     height: 200px;
 }
+
 .search-subsection{
     flex:centre;
 }
