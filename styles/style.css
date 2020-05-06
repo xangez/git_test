@@ -30,6 +30,11 @@ a:link {
     color: black;
 }
 
+a:visited {
+    color: black;
+
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -46,23 +51,37 @@ a:hover {
     justify-content: center;
     height: 200px;
 }
+.search-subsection{
+    flex:centre;
+}
 
 .search-box{
     width: 400px;
     height: 40px;
     border-radius: 25px;
-    border: 1px solid black;
+    border: 1px solid #dfe1e5;
     margin-top: 25px;
-    align-items: centre;
+    display: flex;
 }
 
-.search {
-    display: inline-block;
+.search-box:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.form-search {
+    width: 90%;
 }
 
 input{
     border-style: none;
-    width: 300px;
+    margin-top: 12px;
+    font-size: 16px;
+    width:100%;
+}
+
+input:focus{
+    outline: none;
 }
 
 .search-pic {
@@ -70,4 +89,15 @@ input{
     height: 16px;
     margin-top: 10px;
     margin-left: 5px;
+}
+
+.submit-subsection {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.submit-subsection input{
+    width: 90px;
+    font-size: 12px;
 }
