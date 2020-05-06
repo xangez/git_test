@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-size: 12px;
+    font-size: 13px;
     font-family: 'Roboto', sans-serif;
     color: rgb(95, 99, 104);
 }
@@ -20,18 +20,19 @@ html {
 
 .nav-right{
     padding-right: 10px;
-    width:150px;
     display: flex;
-    justify-content: space-between;
+}
+
+.nav-right a{
+    padding-left:10px
+
 }
 
 .nav-items {
-    padding-top: 5px;
+    padding-top: 8px;
 }
 
-.profile-pic{
-    padding-top:5px;
-}
+
 
 a:link {
     text-decoration: none;
@@ -51,6 +52,9 @@ a:hover {
     margin-top: 80px;
 }
 
+[alt="google-logo"]{
+    width: 350px;
+}
 
 .search-section {
     display: flex;
@@ -59,11 +63,11 @@ a:hover {
 }
 
 .search-subsection{
-    flex:centre;
+    flex: centre;
 }
 
 .search-box{
-    width: 400px;
+    width: 450px;
     height: 34px;
     border-radius: 25px;
     border: 1px solid #dfe1e5;
@@ -116,13 +120,13 @@ input:focus{
 }
 
 [value="Google Search"] {
-    margin: 11px 4px;
+    margin: 15px 5px;
     width: 100px;
     height: 30px;
 }
 
 [value="I'm feeling lucky"] {
-    margin: 11px 4px;
+    margin: 15px 5px;
     width: 110px;
     height: 30px;
 }
