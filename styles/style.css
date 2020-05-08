@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -14,7 +15,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    line-height: 40px;
+    height: 40px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -66,9 +67,6 @@ a:hover {
     display: flex;
     justify-content: center;
     height: 200px;
-}
-
-.search-subsection {
 }
 
 .search-box {
@@ -156,7 +154,8 @@ footer {
 .footer-bottom {
     display: flex;
     justify-content: space-between;
-    line-height: 30px;
+    height: 30px;
+    align-items: center;
     padding-right: 20px;
 }
 
@@ -165,11 +164,13 @@ footer {
 }
 
 .footer-left a {
-    padding-left: 20px;
+    margin-left: 20px;
 }
 
 .footer-right {
-    width: 150px;
     display: flex;
-    justify-content: space-between;
+}
+
+.footer-right a{
+    margin-left: 20px;
 }
