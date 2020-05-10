@@ -67,5 +67,4 @@ input:focus {
 .header-right {
     display: flex;
     align-items: center;
-    float: right;
 }
