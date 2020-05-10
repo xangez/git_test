@@ -9,6 +9,7 @@ html {
 
 body {
     font-size: 13px;
+    line-height: 1.6em;
     font-family: 'Arial', sans-serif;
     color: rgb(95, 99, 104);
 }
